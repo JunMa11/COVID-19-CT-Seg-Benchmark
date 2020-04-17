@@ -57,6 +57,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
         <td>COVID-CT-Seg<br/>Infection(20)</td>
 	</tr>
 </table>
+
 - task200_StructSegLung_datasplit.pkl
 - task201_NSCLCLung_datasplit.pkl
 - task202_MSDLungTumor_datasplit.pkl
@@ -86,6 +87,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
         <td><center>COVID-CT-Seg Infection(16)</td>
     </tr>
 </table>
+
 - task300_
 - task301_
 ... similar to task2
