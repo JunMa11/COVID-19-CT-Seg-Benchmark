@@ -27,19 +27,25 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 | Infection          |                          |
 | Lung and infection |                          |
 
+## Challenge Task 2: Domain generalization
+
+- task200_StructSegLung_datasplit.pkl
+- task201_NSCLCLung_datasplit.pkl
+- task202_MSDLungTumor_datasplit.pkl
+- task203_StructSegTumor_datasplit.pkl
+- task204_NSCLCPE_datasplit.pkl
+
+## Challenge Task 3: Learning with existing annotations
+
+- task300_
+- task301_
+... similar to task2
 
 
 
 
-## Challenge Task 2: Learning with existing annotations
 
 
-
-
-
-
-
-## Challenge Task 3: Domain Generalization
 
 
 
