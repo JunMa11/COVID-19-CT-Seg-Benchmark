@@ -26,6 +26,21 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 | Lung               | 5\-fold cross validation |
 | Infection          |                          |
 | Lung and infection |                          |
+<table>
+	<tr>
+	    <th><center>Seg. Task</th>
+	    <th><center>Training and Testing</th>  
+	</tr >
+<tr >
+    <td>Lung</td>
+    <td rowspan="3">5-fold cross validation <br/>4 cases (20% for training)<br/> 16 cases (80% for testing)</td>
+<tr>
+    <td>Infection</td>
+</tr>
+<tr>
+    <td>Lung and infection</td>
+</tr>
+</table>
 
 ## Challenge Task 2: Domain generalization
 
