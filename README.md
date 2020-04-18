@@ -1,26 +1,34 @@
 # COVID-19 CT Segmentation Challenge: Towards Efficient COVID-19 CT Annotation
 A Benchmark for Lung and Infection Segmentation in COVID-19 CT scans
 
+
 ## Motivation
 
-Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show that deep learning methods have potential for providing accurate and quantitative assessment of COVID-19 infection in CT scans if hundreds  well-labeled training cases are available. However, manual delineation is time-consuming and labor-intensive. Thus, we set up this challenge to explore annotation-efficient methods for COVID-19 CT segmentation. In particular, we focus on:
+Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show that  deep learning methods have potential for providing accurate and quantitative assessment of COVID-19 infection in CT scans if hundreds of well-labeled training cases are available. However, manual delineation of lung and infection is time-consuming and labor-intensive. Thus, we set up this challenge to explore annotation-efficient methods for COVID-19 CT scans segmentation. In particular, we focus on learning to segment left lung, right lung and infection using
 
-- How should we learn with a few training cases? 
-- Can we use existing lung CT labels to assist annotation?
+- pure but limited COVID-19 CT scans;
+
+- existing labeled lung CT dataset from other non-COVID-19 lung diseases;
+- heterogeneous datasets include both COVID-19 and non-COVID-19 CT scans.
+
+[!A figure to show dataset examples]()
 
 ## Datasets
 
-| Dataset                                                      | DESCRIPTION                                                  |
-| ------------------------------------------------------------ | :----------------------------------------------------------- |
-| [StructSeg 2019](https://structseg2019.grand-challenge.org/) | 50 lung CT scans; Annotations include left lung, right lung, spinal cord, esophagus, heart, trachea and gross target volume of lung cancer. |
-| [NSCLC](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#7c5a8c0c0cef44e488b824bd7de60428) | 402 lung CT scans; Annotations include left lung, right lung and pleural effusion (78 cases). |
-| [MSD Lung Tumor](http://medicaldecathlon.com/)               | 63 lung CT scans; Annotations include lung cancer.           |
-| [COVID-19-CT-Seg]()                                          | 20 lung CT scans from; Annotations include left lung, right lung and infections. |
+| Dataset                                                      | DESCRIPTION                                                  | License |
+| ------------------------------------------------------------ | :----------------------------------------------------------- | ------- |
+| [StructSeg 2019](https://structseg2019.grand-challenge.org/) | 50 lung CT scans; Annotations include left lung, right lung, spinal cord, esophagus, heart, trachea and gross target volume of lung cancer. |         |
+| [NSCLC](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#7c5a8c0c0cef44e488b824bd7de60428) | 402 lung CT scans; Annotations include left lung, right lung and pleural effusion (78 cases). |         |
+| [MSD Lung Tumor](http://medicaldecathlon.com/)               | 63 lung CT scans; Annotations include lung cancer.           |         |
+| [COVID-19-CT-Seg]()                                          | 20 lung CT scans from; Annotations include left lung, right lung and infections. |         |
 
 
-## Segmentation Task 1: Learning with a few annotations
 
-> This task is based on COVID-19-CT-Seg dataset with 20 cases. Three subtasks aim to segment lung, infection or both of them. For each task, 5-fold cross validation results should be reported. It should be noted that each fold only has 4 training cases, and remained 16 cases are used for testing. [Here]() is the dataset split file.
+## Segmentation Task 1: Learning with a limited annotations
+
+> This task is based on COVID-19-CT-Seg dataset with 20 cases. Three subtasks are to segment lung, infection or both of them. For each task, 5-fold cross validation results should be reported. 
+>
+> It should be noted that each fold only has 4 training cases, and remained 16 cases are used for testing. In other words, this is a few-shot or zero shot segmentation task. [Here]() is the dataset split file.
 
 
 
@@ -40,11 +48,11 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 </tr>
 </table>
 
-## Segmentation Task 2: Domain generalization
+## Segmentation Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans
 
-> This task aims to segment lung and infection in COVID-19 CT scans. The main difficulty is that the training set and testing set differ in data distribution. All all the datasets are lung CT, they vary in patient cohorts and imaging scanners. 
-
-> It should be noted that labeled COVID-19 CT scans are not allowed to be used during training. Following table presents the details of training, validation and testing set, and [here]() is the dataset split file. (Name (Num.) denotes the dataset name and the number of cases in this dataset, e.g., StructSeg Lung (40) denotes that 40 cases in StructSeg dataset with lung ground turth are used for training.)
+> This task is to segment lung and infection in COVID-19 CT scans. The main difficulty is that the training set and testing set differ in data distribution. Although all the datasets are lung CT, they vary in lesion types (i.e., cancer, pleural effusion and COVID-19), patient cohorts and imaging scanners. 
+>
+> It should be noted that labeled COVID-19 CT scans are not allowed to be used during training. Following table presents the details of training, validation and testing set, and [here]() is the dataset split file. (Name (Num.) denotes the dataset name and the number of cases in this dataset, e.g., StructSeg Lung (40) denotes that 40 cases in StructSeg dataset are used for training.)
 
 
 
@@ -71,11 +79,9 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 
 
 
-## Segmentation Task 3: Learning with existing annotations
+## Segmentation Task 3: Learning with both COVID-19 and non-COVID-19 CT scans
 
-> This task also aims to segment lung and infection in COVID-19 CT scans, but a few labeled COVID-19 CT scans are allowed to be used during training. 
-
-> For each subtask, 5-fold cross validation result should be reported, and [here]() is the dataset split file.
+> This task is also to segment lung and infection in COVID-19 CT scans, but a limited labeled COVID-19 CT scans are allowed to be used during training. For each subtask, 5-fold cross validation result should be reported, and [here]() is the dataset split file.
 
 
 
@@ -106,10 +112,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 
 ## Guidelines
 
-- Teams may choose whether to participate only in a single or multiple sub-tasks or in all tasks. Each task can be evaluated separately.
-- Both semi-automatic and fully automatic methods are allowed.
+- Both semi-automatic (e.g., level set, graph cut...) and fully automatic methods (e.g., CNNs...) are welcome.
 -  Evaluation metrics are Dice similarity coefficient (DSC) and normalized surface Dice (NSD), and the python implementations are [here](http://medicaldecathlon.com/files/Surface_distance_based_measures.ipynb).
+- For fail comparison, using additional datasets are not encouraged. 
 - Life cycle type: open call.
-
-
 
