@@ -1,10 +1,10 @@
-# COVID-19 CT Segmentation Challenge: Towards Efficient COVID-19 CT Annotation
+# COVID-19 CT Segmentation Benchmark: Towards Efficient COVID-19 CT Annotation
 A Benchmark for Lung and Infection Segmentation in COVID-19 CT scans
 
 
 ## Motivation
 
-Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show that  deep learning methods have potential for providing accurate and quantitative assessment of COVID-19 infection in CT scans if hundreds of well-labeled training cases are available. However, manual delineation of lung and infection is time-consuming and labor-intensive. Thus, we set up this challenge to explore annotation-efficient methods for COVID-19 CT scans segmentation. In particular, we focus on learning to segment left lung, right lung and infection using
+Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show that  deep learning methods have potential for providing accurate and quantitative assessment of COVID-19 infection in CT scans if hundreds of well-labeled training cases are available. However, manual delineation of lung and infection is time-consuming and labor-intensive. Thus, we set up this benchmark to explore annotation-efficient methods for COVID-19 CT scans segmentation. In particular, we focus on learning to segment left lung, right lung and infection using
 
 - pure but limited COVID-19 CT scans;
 
