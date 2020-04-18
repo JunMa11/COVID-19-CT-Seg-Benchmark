@@ -18,8 +18,12 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 | [COVID-19-CT-Seg]()                                          | 20 lung CT scans from; Annotations include left lung, right lung and infections. |
 
 
-
 ## Challenge Task 1: Learning with a few annotations
+
+> This task is based on COVID-19-CT-Seg dataset with 20 cases. Three subtasks aim to segment lung, infection or both of them. For each task, 5-fold cross validation results should be reported. It should be noted that each fold only has 4 training cases, and remained 16 cases are used for testing. [Here]() is the dataset split file.
+
+
+
 <table>
 	<tr>
 	    <th><center>Seg. Task</th>
@@ -37,6 +41,11 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 </table>
 
 ## Challenge Task 2: Domain generalization
+
+> This task aims to segment lung and infection in COVID-19 CT scans. The main difficulty is that the training set and testing set differ significantly in data distribution, due to varying patient cohorts and imaging scanners. It should be noted that labeled COVID-19 CT scans are not allowed to be used during training. Following table presents the details of training, validation and testing set, and [here]() is the dataset split file. (Name (Num.) denotes the dataset name and the number of cases in this dataset, e.g., StructSeg Lung (40) denotes that 40 cases in StructSeg dataset are used for training.)
+
+
+
 <table>
 	<tr>
 	    <th>Seg. Task</th>
@@ -48,23 +57,24 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 	    <td>Lung</td>
 	    <td>StructSeg Lung (40) <br/>NSCLC Lung (322)</td>
         <td>StructSeg Lung (10) <br/>NSCLC Lung (80)</td>
-        <td>COVID-CT-Seg<br/>Lung (20)</td>
+        <td>COVID-19-CT-Seg<br/>Lung (20)</td>
 	</tr>
 	<tr>
 	    <td>Infection</td>
 	    <td>MSD Lung Tumor (51)<br/>StructSeg Gross Target (40)<br/>NSCLC Plcural Effusion (62)</td>
         <td>MSD Lung Tumor (12)<br/>StructSeg Gross Target (10)<br/>NSCLC Plcural Effusion (16)</td>
-        <td>COVID-CT-Seg<br/>Infection(20)</td>
+        <td>COVID-19-CT-Seg<br/>Infection(20)</td>
 	</tr>
 </table>
 
-- task200_StructSegLung_datasplit.pkl
-- task201_NSCLCLung_datasplit.pkl
-- task202_MSDLungTumor_datasplit.pkl
-- task203_StructSegTumor_datasplit.pkl
-- task204_NSCLCPE_datasplit.pkl
+
 
 ## Challenge Task 3: Learning with existing annotations
+
+> This task also aims to segment lung and infection in COVID-19 CT scans, but a few labeled COVID-19 CT scans are allowed to be used during training. For each subtask, 5-fold cross validation result should be reported, and [here]() is the dataset split file.
+
+
+
 <table>
     <tr>
         <th><center>Seg.Task</th>
@@ -75,29 +85,27 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
     <tr>
         <td><center>Lung</td>
 	    <td><center>StructSeg Lung (40) <br/>NSCLC Lung (322)</td>
-        <td><center>COVID-CT-Seg Lung(4)</td>
+        <td><center>COVID-19-CT-Seg Lung(4)</td>
         <td><center>StructSeg Lung (10) <br/>NSCLC Lung (80)</td>
-        <td><center>COVID-CT-Seg Lung(16)</td>
+        <td><center>COVID-19-CT-Seg Lung(16)</td>
     </tr>
         <tr>
         <td><center>Infection</td>
         <td><center>MSD Lung Tumor (51)<br/>StructSeg Gross Target (40)<br/>NSCLC Plcural Effusion (62)</td>
-        <td><center>COVID-CT-Seg Infection(4)</td>
+        <td><center>COVID-19-CT-Seg Infection(4)</td>
         <td><center>MSD Lung Tumor (12)<br/>StructSeg Gross Target (10)<br/>NSCLC Plcural Effusion (16)</td>
-        <td><center>COVID-CT-Seg Infection(16)</td>
+        <td><center>COVID-19-CT-Seg Infection(16)</td>
     </tr>
 </table>
 
-- task300_
-- task301_
-... similar to task2
 
 
+## Guidelines
 
-
-
-
-
+- Teams may choose whether to participate only in a single or multiple sub-tasks or in all tasks. Each task can be evaluated separately.
+- Both semi-automatic and fully automatic methods are allowed.
+-  Evaluation metrics are Dice similarity coefficient (DSC) and normalized surface Dice (NSD), and the python implementations are [here](http://medicaldecathlon.com/files/Surface_distance_based_measures.ipynb).
+- Life cycle type: open call.
 
 
 
