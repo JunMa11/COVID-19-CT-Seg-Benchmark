@@ -115,15 +115,17 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 
 ## Guidelines
 
-- Both semi-automatic (e.g., level set, graph cut, interactive CNN...) and fully automatic methods (e.g., CNNs...) are welcome.
--  Evaluation metrics are Dice similarity coefficient (DSC) and normalized surface Dice (NSD), and the python implementations are [here](http://medicaldecathlon.com/files/Surface_distance_based_measures.ipynb).
-- For fail comparison, using additional datasets are not encouraged. 
-- Ensembles by many models are not encouraged.
+- We hope these tasks can serve as a benchmark for novel annotation-efficient segmentation methods of COVID-19 CT scans. Both semi-automatic (e.g., level set, graph cut...) and fully automatic methods (e.g., CNNs...) are welcome.
+- Evaluation metrics are Dice similarity coefficient (DSC) and normalized surface Dice (NSD), and the python implementations are [here](http://medicaldecathlon.com/files/Surface_distance_based_measures.ipynb). 
+
+
 
 ## TODO
 
-- [ ] NIfTI format of NSCLC dataset
-- [ ] U-Net baseline models
+- [ ] Nifty format of NSCLC dataset
+- [ ] We are preparing trained U-Net baseline models for all the tasks.
+
+
 
 
 ## Acknowledgements
