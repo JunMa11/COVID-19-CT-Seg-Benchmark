@@ -1,6 +1,9 @@
 # COVID-19 CT Segmentation Benchmark: Towards Efficient COVID-19 CT Annotation (Under Construction)
 A Benchmark for Lung and Infection Segmentation in COVID-19 CT scans 
 
+- Task 1: Learning with a limited annotations
+- Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans
+- Task 3: Learning with both COVID-19 and non-COVID-19 CT scans
 
 
 ## Motivation
