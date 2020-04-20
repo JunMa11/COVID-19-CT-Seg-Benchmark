@@ -1,6 +1,9 @@
 # COVID-19 CT Segmentation Benchmark: Towards Efficient COVID-19 CT Annotation (Under Construction)
 A Benchmark for Lung and Infection Segmentation in COVID-19 CT scans 
 
+[DD](##Segmentation Task 1: Learning with a limited annotations)
+[dd](##  Segmentation Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans)
+[dd](##Segmentation Task 3: Learning with both COVID-19 and non-COVID-19 CT scans)
 
 ## Motivation
 
@@ -115,3 +118,14 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 -  Evaluation metrics are Dice similarity coefficient (DSC) and normalized surface Dice (NSD), and the python implementations are [here](http://medicaldecathlon.com/files/Surface_distance_based_measures.ipynb).
 - For fail comparison, using additional datasets are not encouraged. 
 - Ensembles by many models are not encouraged.
+
+## TODO
+
+- [ ] NIfTI format of NSCLC dataset
+- [ ] U-Net baseline models
+
+
+## Acknowledgements
+
+We thank all the organizers of MICCAI 2018 Medical Segmentation Decathlon, MICCAI 2019 Automatic Structure Segmentation for Radiotherapy Planning Challenge, [the Coronacases Initiative](https://coronacases.org  ) and [Radiopaedia](https://radiopaedia.org/articles/covid-19-3) for the publicly available lung CT dataset. We also thank [Joseph Paul Cohen](https://github.com/ieee8023/covid-chestxray-dataset) for providing convenient download [link](https://academictorrents.com/details/136ffddd0959108becb2b3a86630bec049fcb0ff) of 20 COVID-19 CT scans. We also thank the organizers of [TMI Special Issue on Annotation-Efficient Deep Learning for Medical Imaging](http://www.embs.org/wp-content/uploads/2020/04/Special_Issue_CFP_DL4MI.pdf) because we get lots of insights from the call for papers when designing these segmentation tasks. Last but not least, we thank the contributors of these great COVID-19 related resources: [COVID19_imaging_AI_paper_list](https://github.com/HzFu/COVID19_imaging_AI_paper_list) and [MedSeg](http://medicalsegmentation.com/covid19/).
+
