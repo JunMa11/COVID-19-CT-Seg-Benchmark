@@ -40,13 +40,13 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 	    <th><Left>Training and Testing</th>  
 	</tr >
 <tr >
-    <td>Lung</td>
+    <td align="left">Lung</td>
     <td rowspan="3">5-fold cross validation <br/>4 cases (20% for training)<br/> 16 cases (80% for testing)</td>
 <tr>
-    <td>Infection</td>
+    <td align="left">Infection</td>
 </tr>
 <tr>
-    <td>Lung and infection</td>
+    <td align="left">Lung and infection</td>
 </tr>
 </table>
 
@@ -68,13 +68,13 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
         <th>(Unseen)Testing</th>
 	</tr >
 	<tr>
-	    <td>Lung</td>
+	    <td align="left">Lung</td>
 	    <td>StructSeg Lung (40) <br/>NSCLC Lung (322)</td>
         <td>StructSeg Lung (10) <br/>NSCLC Lung (80)</td>
         <td>COVID-19-CT-Seg<br/>Lung (20)</td>
 	</tr>
 	<tr>
-	    <td>Infection</td>
+	    <td align="left">Infection</td>
 	    <td>MSD Lung Tumor (51)<br/>StructSeg Gross Target (40)<br/>NSCLC Plcural Effusion (62)</td>
         <td>MSD Lung Tumor (12)<br/>StructSeg Gross Target (10)<br/>NSCLC Plcural Effusion (16)</td>
         <td>COVID-19-CT-Seg<br/>Infection(20)</td>
@@ -99,14 +99,14 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
         <th><center>Testing</th>
     </tr>
     <tr>
-        <td><center>Lung</td>
+        <td align="left">Lung</td>
 	    <td><center>StructSeg Lung (40) <br/>NSCLC Lung (322)</td>
         <td><center>COVID-19-CT-Seg Lung(4)</td>
         <td><center>StructSeg Lung (10) <br/>NSCLC Lung (80)</td>
         <td><center>COVID-19-CT-Seg Lung(16)</td>
     </tr>
         <tr>
-        <td><center>Infection</td>
+        <td align="left">Infection</td>
         <td><center>MSD Lung Tumor (51)<br/>StructSeg Gross Target (40)<br/>NSCLC Plcural Effusion (62)</td>
         <td><center>COVID-19-CT-Seg Infection(4)</td>
         <td><center>MSD Lung Tumor (12)<br/>StructSeg Gross Target (10)<br/>NSCLC Plcural Effusion (16)</td>
