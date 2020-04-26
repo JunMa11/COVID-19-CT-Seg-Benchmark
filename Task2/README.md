@@ -1,7 +1,7 @@
 # Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans
 
 
-## Lung segmentation
+## 3D U-Net baselines for lung segmentation
 
 <table>
 <tr>
@@ -50,7 +50,7 @@
 </table>
 
 
-## Infection segmentation
+## 3D U-Net baselines for infection segmentation
 
 <table>
 <tr>
