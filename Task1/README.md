@@ -1,3 +1,5 @@
+## 3D U-Net baselines for individual lung and infection segmentation
+
 <table>
 <tr>
     <th rowspan="3"><center>Subtask<br/>
@@ -73,6 +75,7 @@
 </table>
 
 
+## 3D U-Net baselines for joint lung and infection segmentation
 
 <table>
 <tr>
