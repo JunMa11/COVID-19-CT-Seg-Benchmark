@@ -1,4 +1,4 @@
-# Task 1: Learning with limited annotations<div id="1"></div>
+# Task 1: Learning with limited annotations
 
 ## 3D U-Net baselines for individual lung and infection segmentation
 
