@@ -1,5 +1,4 @@
 # Towards Efficient COVID-19 CT Annotation: A Benchmark for Lung and Infection Segmentation
-A Benchmark for Lung and Infection Segmentation in COVID-19 CT scans 
 
 - Task 1: Learning with limited annotations
 - Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans
@@ -8,7 +7,7 @@ A Benchmark for Lung and Infection Segmentation in COVID-19 CT scans
 
 ## Motivation
 
-Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show that  deep learning methods have potential for providing accurate and quantitative assessment of COVID-19 infection in CT scans if hundreds of well-labeled training cases are available. However, manual delineation of lung and infection is time-consuming and labor-intensive. Thus, we set up this benchmark to explore annotation-efficient methods for COVID-19 CT scans segmentation. In particular, we focus on learning to segment left lung, right lung and infection using
+Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#technical_CT) show that  deep learning methods have potential for providing accurate and quantitative assessment of COVID-19 infection in CT scans if hundreds of well-labeled training cases are available. However, manual delineation of lung and infection is time-consuming and labor-intensive. Thus, we set up this benchmark to explore annotation-efficient methods for COVID-19 CT scans segmentation. In particular, we focus on learning to segment left lung, right lung and infection using
 
 - pure but limited COVID-19 CT scans;
 
@@ -18,7 +17,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 
 ## Datasets
 
-| Dataset                                                      | DESCRIPTION                                                  | License |
+| Dataset                                                      | Description                                                 | License |
 | ------------------------------------------------------------ | :----------------------------------------------------------- | ------- |
 | [StructSeg 2019](https://structseg2019.grand-challenge.org/) | 50 lung CT scans; Annotations include left lung, right lung, spinal cord, esophagus, heart, trachea and gross target volume of lung cancer. |Hold by the [challenge organizers](https://structseg2019.grand-challenge.org/Download/)    |
 | [NSCLC](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#7c5a8c0c0cef44e488b824bd7de60428) | 402 lung CT scans; Annotations include left lung, right lung and pleural effusion (78 cases). |Creative Commons Attribution 3.0 Unported License  |
