@@ -1,29 +1,27 @@
-## 3D U-Net baselines
-
 <table>
 <tr>
-    <td rowspan="3"><center>Subtask<br/>
-    <td colspan="4"><center>Validation Set</td>
-    <td colspan="4"><center>Testing Set</td>
+    <th rowspan="3"><center>Subtask<br/>
+    <th colspan="4"><center>Validation Set</td>
+    <th colspan="4"><center>Testing Set</td>
 </tr>
 <tr>
-    <td colspan="2"><center>Left Lung</td>
-    <td colspan="2"><center>Right Lung</td>
-    <td colspan="2"><center>Left Lung</td>
-    <td colspan="2"><center>Right Lung</td>
+    <th colspan="2"><center>Left Lung</th>
+    <th colspan="2"><center>Right Lung</th>
+    <th colspan="2"><center>Left Lung</th>
+    <th colspan="2"><center>Right Lung</th>
 </tr>
 <tr>
-    <td><center>DSC</td>
-    <td><center>NSD</td>
-    <td><center>DSC</td>
-    <td><center>NSD</td>
-    <td><center>DSC</td>
-    <td><center>NSD</td>
-    <td><center>DSC</td>
-    <td><center>NSD</td>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
 </tr>
 <tr>
-    <td><center>StructSeg</td>
+    <th><center>StructSeg</th>
     <td><center>0.9642±0.01362</td>
     <td><center>0.7464±0.0913</td>
     <td><center>0.9730±0.0026</td>
@@ -34,7 +32,7 @@
     <td><center>0.8419±0.1159</td>
 </tr>
 <tr>
-    <td><center>NSCLC</td>
+    <th><center>NSCLC</th>
     <td><center>0.9530±0.04923</td>
     <td><center>0.8017±0.08274</td>
     <td><center>0.9536±0.1086</td>
