@@ -1,1 +1,73 @@
-TBA
+<table>
+<tr>
+    <th rowspan="3"><center>Subtask<br/>
+    <th colspan="4"><center>Lung</td>
+    <th colspan="2" rowspan="2"><center>Infection</td>
+</tr>
+<tr>
+    <th colspan="2"><center>Left Lung</td>
+    <th colspan="2"><center>Right Lung</td>
+</tr>
+<tr>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+</tr>
+<tr>
+    <th><center>Fold0</td>
+    <td><center>0.8488±0.08242</td>
+    <td><center>0.6869±0.1329</td>
+    <td><center>0.8521±0.1299</td>
+    <td><center>0.7055±0.1578</td>
+    <td><center>0.6808±0.2049</td>
+    <td><center>0.7088±0.2130</td>
+</tr>
+<tr>
+    <th><center>Fold1</td>
+    <td><center>0.8028±0.1454</td>
+    <td><center>0.6182±0.1510</td>
+    <td><center>0.8388±0.09582</td>
+    <td><center>0.6825±0.09003</td>
+    <td><center>0.7132±0.2053</td>
+    <td><center>0.7182±0.2296</td>
+</tr>
+<tr>
+    <th><center>Fold2</td>
+    <td><center>0.8714±0.1213</td>
+    <td><center>0.7434±0.1595</td>
+    <td><center>0.9034±0.08237</td>
+    <td><center>0.7845±0.1195</td>
+    <td><center>0.6618±0.2168</td>
+    <td><center>0.7171±0.2415</td>
+</tr>
+<tr>
+    <th><center>Fold3</td>
+    <td><center>0.8844±0.07027</td>
+    <td><center>0.7518±0.08787</td>
+    <td><center>0.8986±0.06260</td>
+    <td><center>0.7845±0.07952</td>
+    <td><center>0.6813±0.231</td>
+    <td><center>0.7084±0.2706</td>
+</tr>
+<tr>
+    <th><center>Fold4</td>
+    <td><center>0.8833±0.7597</td>
+    <td><center>0.7583±0.1104</td>
+    <td><center>0.9022±0.06963</td>
+    <td><center>0.7831±0.1020</td>
+    <td><center>0.6267±0.2689</td>
+    <td><center>0.6493±0.2823</td>
+</tr> 
+<tr>
+    <th><center>Avg</td>
+    <td><center>0.8582±0.1052</td>
+    <td><center>0.7117±0.1384</td>
+    <td><center>0.8790±0.09315</td>
+    <td><center>0.7480±0.1191</td>
+    <td><center>0.6728±0.2227</td>
+    <td><center>0.7004±0.2437</td>
+</tr>        
+</table>
