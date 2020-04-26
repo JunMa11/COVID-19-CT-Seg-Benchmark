@@ -2,7 +2,7 @@
 
 - [Task 1: Learning with limited annotations](https://github.com/JunMa11/COVID-19-CT-Seg-Benchmark/tree/master/Task1#1)
 - [Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans](https://github.com/JunMa11/COVID-19-CT-Seg-Benchmark/blob/master/Task2/README.md#2)
-- Task 3: Learning with both COVID-19 and non-COVID-19 CT scans
+- [Task 3: Learning with both COVID-19 and non-COVID-19 CT scans](https://github.com/JunMa11/COVID-19-CT-Seg-Benchmark/blob/master/Task3/README.md#3)
 
 
 ## Motivation
