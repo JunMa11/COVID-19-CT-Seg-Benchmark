@@ -1,6 +1,6 @@
 <table>
 <tr>
-    <th rowspan="3"><center>Subtask<br/>
+    <th rowspan="3" align="left">Subtask<br/>
     <th colspan="4"><center>Validation Set</td>
     <th colspan="4"><center>Testing Set</td>
 </tr>
@@ -48,7 +48,7 @@
 
 <table>
 <tr>
-    <th rowspan="2"><center>Subtask<br/>
+    <th rowspan="2" align="left">Subtask<br/>
     <th colspan="2"><center>Validation Set</th>
     <th colspan="2"><center>Testing Set</th>
 </tr>
