@@ -1,4 +1,4 @@
-# Towards Efficient COVID-19 CT Annotation: A Benchmark for Lung and Infection Segmentation
+<h1 style="word-break:break-word;">Towards Efficient COVID-19 CT Annotation: A Benchmark for Lung and Infection Segmentation</h1>
 
 - Task 1: Learning with limited annotations
 - Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans
