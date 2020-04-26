@@ -122,13 +122,14 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 - We hope these tasks can serve as a benchmark for novel annotation-efficient segmentation methods of COVID-19 CT scans. Both semi-automatic (e.g., level set, graph cut...) and fully automatic methods (e.g., CNNs...) are welcome.
 - Evaluation metrics are Dice similarity coefficient (DSC) and normalized surface Dice (NSD), and the python implementations are [here](http://medicaldecathlon.com/files/Surface_distance_based_measures.ipynb). 
 - Nifty format of the NSCLC dataset can be downloaded [here](). It should be noted that all the copyrights belong to the original dataset contributors, and please also [cite the corresponding publications](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#4dc5f53338634b35a3500cbed18472e0) if you use this dataset.
+- 2D/3D U-Net baselines are based on [nnU-Net](https://github.com/MIC-DKFZ/nnUNet).
 
 
 
 ## TODO
 
-- [ ] Pre-trained 3D U-Net models.
-- [ ] Pre-trained 2D U-Net models.
+- [ ] Provide pre-trained 3D U-Net models.
+- [ ] Provide pre-trained 2D U-Net models.
 
 
 
@@ -140,10 +141,11 @@ We also thank [Joseph Paul Cohen](https://github.com/ieee8023/covid-chestxray-da
 We also thank all the contributor of [NSCLC](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#7c5a8c0c0cef44e488b824bd7de60428) and [COVID-19-Seg-CT](https://zenodo.org/record/3757476#.XqU5iGgzZPY) dataset for providing annotations of  lung, pleural effusion and COVID-19 infection.
 We also thank the organizers of [TMI Special Issue on Annotation-Efficient Deep Learning for Medical Imaging](http://www.embs.org/wp-content/uploads/2020/04/Special_Issue_CFP_DL4MI.pdf) because we get lots of insights from the call for papers when designing these segmentation tasks. We also thank the contributors of these great COVID-19 related resources: [COVID19_imaging_AI_paper_list](https://github.com/HzFu/COVID19_imaging_AI_paper_list) and [MedSeg](http://medicalsegmentation.com/covid19/). Last but not least, we thank Chen Chen, Xin Yang, and Yao Zhang for their important feedback on this benchmark.
 
-## Citation
+## Including the following two citations in your work would be highly appreciated.
 
 - Jun Ma, Cheng Ge, Yixin Wang, Xingle An, Jiantao Gao, Ziqi Yu, Minqing Zhang, Xin Liu, Xueyuan Deng, Shucheng Cao, Hao Wei, Sen Mei, Xiaoyu Yang, Ziwei Nie, Chen Li, Lu Tian, Yuntao Zhu, Qiongjie Zhu, Guoqiang Dong, Jian He. (2020). COVID-19 CT Lung and Infection Segmentation Dataset (Version Verson 1.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3757476
 
+```
 @dataset{COVID-19-CT-Seg-Dataset,
   author       = {Ma Jun and
                   Ge Cheng and
@@ -174,4 +176,4 @@ We also thank the organizers of [TMI Special Issue on Annotation-Efficient Deep 
   doi          = {10.5281/zenodo.3757476},
   url          = {https://doi.org/10.5281/zenodo.3757476}
 }
-
+```
