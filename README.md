@@ -36,7 +36,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 
 <table>
 	<tr>
-	    <th><Left>Subtask</th>
+	    <th align="left">Subtask</th>
 	    <th><Left>Training and Testing</th>  
 	</tr >
 <tr >
@@ -62,7 +62,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 
 <table>
 	<tr>
-	    <th>Subtask</th>
+	    <th align="left">Subtask</th>
 	    <th>Training</th>
         <th>Validation</th>
         <th>(Unseen)Testing</th>
@@ -93,7 +93,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 
 <table>
     <tr>
-        <th><center>Subtask</th>
+        <th align="left">Subtask</th>
         <th colspan="2" ><center>Training</th></td>
         <th><center>Validation</th>
         <th><center>Testing</th>
