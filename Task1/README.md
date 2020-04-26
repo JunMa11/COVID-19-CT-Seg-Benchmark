@@ -71,3 +71,79 @@
     <td><center>0.7004±0.2437</td>
 </tr>        
 </table>
+
+
+
+<table>
+<tr>
+    <th rowspan="3"><center>Subtask<br/>
+    <th colspan="6"><center>Lung and Infection</td>
+</tr>
+<tr>
+    <th colspan="2"><center>Left Lung</td>
+    <th colspan="2"><center>Right Lung</td>
+    <th colspan="2"><center>Infection</td>
+</tr>
+<tr>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+</tr>
+<tr>
+    <th><center>Fold0</td>
+    <td><center>0.5376±0.284</td>
+    <td><center>0.3905±0.1832</td>
+    <td><center>0.6547±0.1936</td>
+    <td><center>0.4736±0.1426</td>
+    <td><center>0.6543±0.2388</td>
+    <td><center>0.6815±0.232</td>
+</tr>
+<tr>
+    <th><center>Fold1</td>
+    <td><center>0.4031±0.1871</td>
+    <td><center>0.2753±0.1198</td>
+    <td><center>0.6014±0.1112</td>
+    <td><center>0.4171±0.0994</td>
+    <td><center>0.6471±0.2183</td>
+    <td><center>0.6055±0.2511</td>
+</tr>
+<tr>
+    <th><center>Fold2</td>
+    <td><center>0.8032±0.1875</td>
+    <td><center>0.6679±0.1884</td>
+    <td><center>0.8521±0.1243</td>
+    <td><center>0.6862±0.1506</td>
+    <td><center>0.6069±0.276</td>
+    <td><center>0.6245±0.289</td>
+</tr>
+<tr>
+    <th><center>Fold3</td>
+    <td><center>0.7965±0.1360</td>
+    <td><center>0.6543±0.1442</td>
+    <td><center>0.8401±0.0977</td>
+    <td><center>0.6770±0.1304</td>
+    <td><center>0.6198±0.2787</td>
+    <td><center>0.6532±0.2891</td>
+</tr>
+<tr>
+    <th><center>Fold4</td>
+    <td><center>0.7242±0.2109</td>
+    <td><center>0.5855±0.2081</td>
+    <td><center>0.8086±0.1344</td>
+    <td><center>0.6340±0.1586</td>
+    <td><center>0.5138±0.3015</td>
+    <td><center>0.5186±0.3101</td>
+</tr> 
+<tr>
+    <th><center>Avg</td>
+    <td><center>0.6544±0.2556</td>
+    <td><center>0.5163±0.2291</td>
+    <td><center>0.7527±0.1678</td>
+    <td><center>0.5789±0.1746</td>
+    <td><center>0.6078±0.2628</td>
+    <td><center>0.6159±0.2748</td>
+</tr>        
+</table>
