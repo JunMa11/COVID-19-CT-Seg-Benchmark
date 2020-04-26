@@ -1,3 +1,8 @@
+# Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans
+
+
+## Lung segmentation
+
 <table>
 <tr>
     <th rowspan="3" align="left">Subtask<br/>
@@ -21,7 +26,7 @@
     <th><center>NSD</th>
 </tr>
 <tr>
-    <th align="left">StructSeg</th>
+    <th align="left">StructSeg Lung</th>
     <td><center>0.9642±0.01362</td>
     <td><center>0.7464±0.0913</td>
     <td><center>0.9730±0.0026</td>
@@ -32,7 +37,7 @@
     <td><center>0.8419±0.1159</td>
 </tr>
 <tr>
-    <th align="left">NSCLC</th>
+    <th align="left">NSCLC Lung</th>
     <td><center>0.9530±0.04923</td>
     <td><center>0.8017±0.08274</td>
     <td><center>0.9536±0.1086</td>
@@ -45,6 +50,7 @@
 </table>
 
 
+## Infection segmentation
 
 <table>
 <tr>
