@@ -43,3 +43,40 @@
     <td><center>0.5171±0.1676</td>
 </tr>
 </table>
+
+
+
+<table>
+<tr>
+    <th rowspan="2"><center>Subtask<br/>
+    <th colspan="2"><center>Validation Set</th>
+    <th colspan="2"><center>Testing Set</th>
+</tr>
+<tr>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+</tr>
+<tr>
+    <th><center>MSD Lung Tumor</th>
+    <td><center>0.6720±0.2708</td>
+    <td><center>0.7708±0.3139</td>
+    <td><center>0.2517±0.2741</td>
+    <td><center>0.2595±0.2851</td>
+</tr>
+<tr>
+    <th><center>StructSeg Gross Target</th>
+    <td><center>0.7132±0.2957</td>
+    <td><center>0.7032±0.2948</td>
+    <td><center>0.05998±0.1270</td>
+    <td><center>0.0550±0.1070</td>
+</tr>
+<tr>
+    <th><center>NSCLC-PE</th>
+    <td><center>0.6435±0.1549</td>
+    <td><center>0.7368±0.1293</td>
+    <td><center>0.003850±0.008947</td>
+    <td><center>0.03687±0.04834</td>
+</tr>
+</table>
