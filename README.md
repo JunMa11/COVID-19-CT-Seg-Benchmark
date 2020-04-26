@@ -25,8 +25,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 | [COVID-19-CT-Seg](https://zenodo.org/record/3757476#.Xpz8OcgzZPY)                                          | 20 lung CT scans from; Annotations include left lung, right lung and infections. |CC BY-NC-SA   |
 
 ![Examples](https://github.com/JunMa11/COVID-19-CT-Seg-Benchmark/blob/master/utils/ImageExamples.png)
-
-## Segmentation Task 1: Learning with limited annotations<div id="1"></div>
+<div id="1"></div>
+## Segmentation Task 1: Learning with limited annotations
 
 > This task is based on the COVID-19-CT-Seg dataset with 20 cases. Three subtasks are to segment lung, infection or both of them. For each task, 5-fold cross-validation results should be reported. 
 > It should be noted that each fold only has 4 training cases, and remained 16 cases are used for testing. In other words, this is a few-shot or zero-shot segmentation task. 
@@ -49,8 +49,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="left">Lung and infection</td>
 </tr>
 </table>
-
-## Segmentation Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans<div id="2"></div>
+<div id="2"></div>
+## Segmentation Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans
 
 > This task is to segment lung and infection in COVID-19 CT scans. The main difficulty is that the training set and testing set differ in data distribution. Although all the datasets are lung CT, they vary in lesion types (i.e., cancer, pleural effusion, and COVID-19), patient cohorts and imaging scanners. 
 
@@ -82,8 +82,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 </table>
 
 
-
-## Segmentation Task 3: Learning with both COVID-19 and non-COVID-19 CT scans<div id="3"></div>
+<div id="3"></div>
+## Segmentation Task 3: Learning with both COVID-19 and non-COVID-19 CT scans
 
 > This task is also to segment lung and infection in COVID-19 CT scans, but a limited labeled COVID-19 CT scans are allowed to be used during training. For each subtask, 5-fold cross-validation results should be reported.
 
