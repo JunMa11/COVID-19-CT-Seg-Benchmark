@@ -1,4 +1,4 @@
-# COVID-19 CT Segmentation Benchmark: Towards Efficient COVID-19 CT Annotation (Under Construction)
+# Towards Efficient COVID-19 CT Annotation: A Benchmark for Lung and Infection Segmentation
 A Benchmark for Lung and Infection Segmentation in COVID-19 CT scans 
 
 - Task 1: Learning with limited annotations
@@ -37,8 +37,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 
 <table>
 	<tr>
-	    <th>Subtask</th>
-	    <th>Training and Testing</th>  
+	    <th><Left>Subtask</th>
+	    <th><Left>Training and Testing</th>  
 	</tr >
 <tr >
     <td>Lung</td>
@@ -143,7 +143,7 @@ We also thank the organizers of [TMI Special Issue on Annotation-Efficient Deep 
 
 ## Including the following two citations in your work would be highly appreciated.
 
-- Jun Ma, Cheng Ge, Yixin Wang, Xingle An, Jiantao Gao, Ziqi Yu, Minqing Zhang, Xin Liu, Xueyuan Deng, Shucheng Cao, Hao Wei, Sen Mei, Xiaoyu Yang, Ziwei Nie, Chen Li, Lu Tian, Yuntao Zhu, Qiongjie Zhu, Guoqiang Dong, Jian He. (2020). COVID-19 CT Lung and Infection Segmentation Dataset (Version Verson 1.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3757476
+- Jun Ma, Cheng Ge, Yixin Wang, Xingle An, Jiantao Gao, Ziqi Yu, Minqing Zhang, Xin Liu, Xueyuan Deng, Shucheng Cao, Hao Wei, Sen Mei, Xiaoyu Yang, Ziwei Nie, Chen Li, Lu Tian, Yuntao Zhu, Qiongjie Zhu, Guoqiang Dong, Jian He. (2020). COVID-19 CT Lung and Infection Segmentation Dataset (Version 1.0) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3757476
 
 ```
 @dataset{COVID-19-CT-Seg-Dataset,
