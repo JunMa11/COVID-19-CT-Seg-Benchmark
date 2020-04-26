@@ -1,7 +1,7 @@
 # COVID-19 CT Segmentation Benchmark: Towards Efficient COVID-19 CT Annotation (Under Construction)
 A Benchmark for Lung and Infection Segmentation in COVID-19 CT scans 
 
-- Task 1: Learning with a limited annotations
+- Task 1: Learning with limited annotations
 - Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans
 - Task 3: Learning with both COVID-19 and non-COVID-19 CT scans
 
@@ -27,7 +27,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list) show
 
 ![Examples](https://github.com/JunMa11/COVID-19-CT-Seg-Benchmark/blob/master/utils/ImageExamples.png)
 
-## Segmentation Task 1: Learning with a limited annotations
+## Segmentation Task 1: Learning with limited annotations
 
 > This task is based on the COVID-19-CT-Seg dataset with 20 cases. Three subtasks are to segment lung, infection or both of them. For each task, 5-fold cross-validation results should be reported. 
 >
