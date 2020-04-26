@@ -1,6 +1,6 @@
 <h1 style="word-break:break-word;">Towards Efficient COVID-19 CT Annotation: A Benchmark for Lung and Infection Segmentation</h1>
 
-- Task 1: Learning with limited annotations
+- < a href=" " target="_self">Task 1: Learning with limited annotations</ a>
 - Task 2: Learning to segment COVID-19 CT scans from non-COVID-19 CT scans
 - Task 3: Learning with both COVID-19 and non-COVID-19 CT scans
 
