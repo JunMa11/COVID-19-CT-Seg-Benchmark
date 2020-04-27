@@ -1,4 +1,6 @@
 # Task 3: Learning with both COVID-19 and non-COVID-19 CT scans
+
+
 ## 3D U-Net baselines for lung segmentation
 <table>
 <tr>
