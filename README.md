@@ -22,7 +22,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 | [StructSeg 2019](https://structseg2019.grand-challenge.org/) | 50 lung CT scans; Annotations include left lung, right lung, spinal cord, esophagus, heart, trachea and gross target volume of lung cancer. |Hold by the [challenge organizers](https://structseg2019.grand-challenge.org/Download/)    |
 | [NSCLC](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#7c5a8c0c0cef44e488b824bd7de60428) | 402 lung CT scans; Annotations include left lung, right lung and pleural effusion (78 cases). |CC BY-NC |
 | [MSD Lung Tumor](http://medicaldecathlon.com/)               | 63 lung CT scans; Annotations include lung cancer.           |CC BY-SA        |
-| [COVID-19-CT-Seg](https://zenodo.org/record/3757476#.Xpz8OcgzZPY)                                          | 20 lung CT scans from; Annotations include left lung, right lung and infections. |CC BY-NC-SA   |
+| [COVID-19-CT-Seg](https://zenodo.org/record/3757476#.Xpz8OcgzZPY) | 20 lung CT scans from; Annotations include left lung, right lung and infections. |CC BY-NC-SA   |
 
 ![Examples](https://github.com/JunMa11/COVID-19-CT-Seg-Benchmark/blob/master/utils/ImageExamples.png)
 
@@ -120,8 +120,10 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 
 - We hope these tasks can serve as a benchmark for novel annotation-efficient segmentation methods of COVID-19 CT scans. Both semi-automatic (e.g., level set, graph cut...) and fully automatic methods (e.g., CNNs...) are welcome.
 - Evaluation metrics are Dice similarity coefficient (DSC) and normalized surface Dice (NSD), and the python implementations are [here](http://medicaldecathlon.com/files/Surface_distance_based_measures.ipynb). 
+- In [COVID-19-CT-Seg](https://zenodo.org/record/3757476#.Xpz8OcgzZPY) dataset, the last 10 cases from Radiopaedia have been adjusted to lung window [-1250,250], and then normalized to [0,255], we recommend to adust the first 10 cases from Coronacases with the same method.
 - Nifty format of the NSCLC dataset can be downloaded [here (pw:1qop)](https://pan.baidu.com/s/1K7iGRIX8lOiaaTbhBJi7Vw). It should be noted that all the copyrights belong to the original dataset contributors, and please also [cite the corresponding publications](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#4dc5f53338634b35a3500cbed18472e0) if you use this dataset.
 - 2D/3D U-Net baselines are based on [nnU-Net](https://github.com/MIC-DKFZ/nnUNet).
+- [Github mirror](https://github.com/JunMa11/COVID-19-CT-Seg-Benchmark); [Gitee mirror](https://gitee.com/junma11/COVID-19-CT-Seg-Benchmark).
 
 
 
