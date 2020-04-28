@@ -17,7 +17,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 
 ## Datasets
 
-| Dataset                                                      | Description                                                 | License |
+| Download Dataset                                            | Description                                                 | License |
 | ------------------------------------------------------------ | :----------------------------------------------------------- | ------- |
 | [StructSeg 2019](https://structseg2019.grand-challenge.org/) | 50 lung CT scans; Annotations include left lung, right lung, spinal cord, esophagus, heart, trachea and gross target volume of lung cancer. |Hold by the [challenge organizers](https://structseg2019.grand-challenge.org/Download/)    |
 | [NSCLC](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#7c5a8c0c0cef44e488b824bd7de60428) | 402 lung CT scans; Annotations include left lung, right lung and pleural effusion (78 cases). |CC BY-NC |
