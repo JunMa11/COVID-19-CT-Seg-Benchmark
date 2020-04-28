@@ -143,13 +143,13 @@ We also thank all the contributor of [NSCLC](https://wiki.cancerimagingarchive.n
 We also thank the organizers of [TMI Special Issue on Annotation-Efficient Deep Learning for Medical Imaging](http://www.embs.org/wp-content/uploads/2020/04/Special_Issue_CFP_DL4MI.pdf) because we get lots of insights from the call for papers when designing these segmentation tasks. We also thank the contributors of these great COVID-19 related resources: [COVID19_imaging_AI_paper_list](https://github.com/HzFu/COVID19_imaging_AI_paper_list) and [MedSeg](http://medicalsegmentation.com/covid19/). Last but not least, we thank Chen Chen, Xin Yang, and Yao Zhang for their important feedback on this benchmark.
 
 ## Including the following two citations in your work would be highly appreciated.
-- Jun Ma, Yixin Wang, Xingle An, Cheng Ge, Ziqi Yu, Jianan Chen, Qiongjie Zhu, Guoqiang Dong, Jian He, Zhiqiang He, Ziwei Nie, Xiaoping Yang, "Towards Efficient COVID-19 CT Annotation: A Benchmark for Lung and Infection Segmentation," arXiv preprintarXiv:3148607, 2020
+- Jun Ma, Yixin Wang, Xingle An, Cheng Ge, Ziqi Yu, Jianan Chen, Qiongjie Zhu, Guoqiang Dong, Jian He, Zhiqiang He, Ziwei Nie, Xiaoping Yang, "Towards Efficient COVID-19 CT Annotation: A Benchmark for Lung and Infection Segmentation," arXiv preprint [arXiv:2004.12537](https://arxiv.org/abs/2004.12537), 2020
 
 ```
 @article{COVID-19-SegBenchmark,
   title={Towards Efficient COVID-19 CT Annotation: A Benchmark for Lung and Infection Segmentation},
   author={Ma Jun and Wang Yixin and An Xingle and Ge Cheng and Yu Ziqi and Chen Jianan and Zhu Qiongjie and Dong Guoqiang and He Jian and He Zhiqiang and Ni Ziwei and Yang Xiaoping},
-  journal={arXiv preprint arXiv:3148607},
+  journal={arXiv preprint arXiv:2004.12537},
   year={2020}
 }
 ```
