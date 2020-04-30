@@ -92,7 +92,7 @@
     <td><center>0.9136±0.06078</td>
 </tr>   
 <tr>
-    <th rowspan="6"><center>StructSeg<br/>
+    <th rowspan="6"><center>NSCLC<br/>
     <th><center>Fold0</td>
     <td><center>0.9574±0.04580</td>
     <td><center>0.8120±0.07485</td>
@@ -160,6 +160,7 @@
 </tr>  
 </table>
 
+## 3D U-Net baselines for infection segmentation
 
 <table>
 <tr>
