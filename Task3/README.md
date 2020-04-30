@@ -159,3 +159,147 @@
     <td><center>0.7724±0.1408</td>
 </tr>  
 </table>
+
+
+<table>
+<tr>
+    <th rowspan="2" colspan="2"><center>Subtask<br/>
+    <th colspan="2"><center>Validation Set</td>
+    <th colspan="2"><center>Testing Set</td>
+</tr>
+<tr>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+</tr>
+<tr>
+    <th rowspan="6"><center>MSD Lung Tumor<br/>
+    <th><center>Fold0</td>
+    <td><center>0.6718±0.2665</td>
+    <td><center>0.7814±0.3082</td>
+    <td><center>0.6803±0.2246</td>
+    <td><center>0.6656±0.2374</td>
+</tr>
+<tr>
+    <th><center>Fold1</td>
+    <td><center>0.6625±0.2613</td>
+    <td><center>0.7686±0.2963</td>
+    <td><center>0.6704±0.2199</td>
+    <td><center>0.6511±0.2585</td>
+</tr>
+<tr>
+    <th><center>Fold2</td>
+    <td><center>0.6714±0.2537</td>
+    <td><center>0.7744±0.2780</td>
+    <td><center>0.6299±0.2789</td>
+    <td><center>0.6441±0.2869</td>
+</tr>
+<tr>
+    <th><center>Fold3</td>
+    <td><center>0.6392±0.2656</td>
+    <td><center>0.7376±0.3106</td>
+    <td><center>0.6171±0.2451</td>
+    <td><center>0.5975±0.2850</td>
+</tr>
+<tr>
+    <th><center>Fold4</td>
+    <td><center>0.6801±0.2591</td>
+    <td><center>0.7877±0.2988</td>
+    <td><center>0.5189±0.3061</td>
+    <td><center>0.5057±0.3081</td>
+</tr> 
+<tr>
+    <th><center>Avg</td>
+    <td><center>0.6650±0.2527</td>
+    <td><center>0.7699±0.2888</td>
+    <td><center>0.6233±0.2570</td>
+    <td><center>0.6128±0.2755</td>
+</tr>   
+<tr>
+    <th rowspan="6"><center>StructSeg Tumor<br/>
+    <th><center>Fold0</td>
+    <td><center>0.7823±0.1413</td>
+    <td><center>0.7542±0.1753</td>
+    <td><center>0.6929±0.2046</td>
+    <td><center>0.6795±0.2177</td>
+</tr>
+<tr>
+    <th><center>Fold1</td>
+    <td><center>0.7859±0.1403</td>
+    <td><center>00.7605±0.1806</td>
+    <td><center>0.6830±0.2240</td>
+    <td><center>0.6478±0.2627</td>
+</tr>
+<tr>
+    <th><center>Fold2</td>
+    <td><center>0.7702±0.1373</td>
+    <td><center>0.7297±0.1701</td>
+    <td><center>0.6358±0.2535</td>
+    <td><center>0.6612±0.2550</td>
+</tr>
+<tr>
+    <th><center>Fold3</td>
+    <td><center>0.7875±0.1360</td>
+    <td><center>0.7597±0.1754</td>
+    <td><center>0.6702±0.2406</td>
+    <td><center>0.6639±0.2521</td>
+</tr>
+<tr>
+    <th><center>Fold4</td>
+    <td><center>0.7747±0.1365</td>
+    <td><center>0.7463±0.1838</td>
+    <td><center>0.5257±0.2874</td>
+    <td><center>0.5117±0.2854</td>
+</tr> 
+<tr>
+    <th><center>Avg</td>
+    <td><center>0.7801±0.1327</td>
+    <td><center>0.7501±0.1701</td>
+    <td><center>0.6415±0.2452</td>
+    <td><center>0.6328±0.2565</td>
+</tr>  
+<tr>
+    <th rowspan="6"><center>NSCLC<br/>
+    <th><center>Fold0</td>
+    <td><center>0.6548±0.1544</td>
+    <td><center>0.7428±0.1319</td>
+    <td><center>0.6921±0.2068</td>
+    <td><center>0.6648±0.2235</td>
+</tr>
+<tr>
+    <th><center>Fold1</td>
+    <td><center>0.6470±0.1544</td>
+    <td><center>0.7384±0.1426</td>
+    <td><center>0.5969±0.2272</td>
+    <td><center>0.5579±0.2546</td>
+</tr>
+<tr>
+    <th><center>Fold2</td>
+    <td><center>0.6551±0.1517</td>
+    <td><center>0.7480±0.1368</td>
+    <td><center>0.6158±0.2824</td>
+    <td><center>0.6171±0.2913</td>
+</tr>
+<tr>
+    <th><center>Fold3</td>
+    <td><center>0.6468±0.1596</td>
+    <td><center>0.7398±0.1361</td>
+    <td><center>0.6267±0.2565</td>
+    <td><center>0.6201±0.2773</td>
+</tr>
+<tr>
+    <th><center>Fold4</td>
+    <td><center>0.6523±0.1561</td>
+    <td><center>0.7472±0.1301</td>
+    <td><center>0.4765±0.2723</td>
+    <td><center>0.4651±0.2698</td>
+</tr> 
+<tr>
+    <th><center>Avg</td>
+    <td><center>0.6512±0.1518</td>
+    <td><center>0.7433±0.1319</td>
+    <td><center>0.6016±0.2542</td>
+    <td><center>0.5850±0.2670</td>
+</tr>  
+</table>
