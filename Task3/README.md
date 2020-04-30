@@ -4,7 +4,7 @@
 ## 3D U-Net baselines for lung segmentation
 <table>
 <tr>
-    <th rowspan="3" colspan="2"><center>Subtask<br/>
+    <th rowspan="3" colspan="2" align="left">Subtask<br/>
     <th colspan="4"><center>Validation Set</td>
     <th colspan="4"><center>Testing Set</td>
 </tr>
@@ -25,7 +25,7 @@
     <th><center>NSD</td>
 </tr>
 <tr>
-    <th rowspan="6"><center>StructSeg Lung<br/>
+    <th rowspan="6" align="left">StructSeg Lung<br/>
     <th><center>Fold0</td>
     <td><center>0.9632±0.01222</td>
     <td><center>0.7392±0.08513</td>
@@ -92,7 +92,7 @@
     <td><center>0.9136±0.06078</td>
 </tr>   
 <tr>
-    <th rowspan="6"><center>NSCLC Lung<br/>
+    <th rowspan="6" align="left">NSCLC Lung<br/>
     <th><center>Fold0</td>
     <td><center>0.9574±0.04580</td>
     <td><center>0.8120±0.07485</td>
@@ -164,7 +164,7 @@
 
 <table>
 <tr>
-    <th rowspan="2" colspan="2"><center>Subtask<br/>
+    <th rowspan="2" colspan="2" align="left">Subtask<br/>
     <th colspan="2"><center>Validation Set</td>
     <th colspan="2"><center>Testing Set</td>
 </tr>
@@ -175,7 +175,7 @@
     <th><center>NSD</td>
 </tr>
 <tr>
-    <th rowspan="6"><center>MSD Lung Tumor<br/>
+    <th rowspan="6" align="left">MSD Lung Tumor<br/>
     <th><center>Fold0</td>
     <td><center>0.6718±0.2665</td>
     <td><center>0.7814±0.3082</td>
@@ -218,7 +218,7 @@
     <td><center>0.6128±0.2755</td>
 </tr>   
 <tr>
-    <th rowspan="6"><center>StructSeg Gross Target<br/>
+    <th rowspan="6" align="left">StructSeg Gross Target<br/>
     <th><center>Fold0</td>
     <td><center>0.7823±0.1413</td>
     <td><center>0.7542±0.1753</td>
@@ -261,7 +261,7 @@
     <td><center>0.6328±0.2565</td>
 </tr>  
 <tr>
-    <th rowspan="6"><center>NSCLC-PE<br/>
+    <th rowspan="6" align="left">NSCLC-PE<br/>
     <th><center>Fold0</td>
     <td><center>0.6548±0.1544</td>
     <td><center>0.7428±0.1319</td>
