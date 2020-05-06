@@ -152,3 +152,95 @@
     <td><center>0.6159±0.2748</td>
 </tr>        
 </table>
+
+
+
+## 8/2
+<table>
+<tr>
+    <th rowspan="3"><center>Subtask<br/>
+    <th colspan="2" rowspan="2"><center>Infection</td>
+    <th colspan="6"><center>Lung and Infection</td>
+</tr>
+<tr>
+    <th colspan="2"><center>Left Lung</td>
+    <th colspan="2"><center>Right Lung</td>
+    <th colspan="2"><center>Infection</td>
+</tr>
+<tr>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+    <th><center>DSC</td>
+    <th><center>NSD</td>
+</tr>
+<tr>
+    <th><center>Fold0</td>
+    <td><center>0.8019±0.0603</td>
+    <td><center>0.8599±0.09182</td>
+    <td><center>0.9207±0.08202</td>
+    <td><center>0.8028±0.1474</td>
+    <td><center>0.9355±0.05415</td>
+    <td><center>0.8018±0.1208</td>
+    <td><center>0.7919±0.06362</td>
+    <td><center>0.8471±0.09475</td>
+</tr>
+<tr>
+    <th><center>Fold1</td>
+    <td><center>0.7807±0.05981</td>
+    <td><center>0.8358±0.07287</td>
+    <td><center>0.9387±0.08439</td>
+    <td><center>0.8419±0.1574</td>
+    <td><center>0.9411±0.06709</td>
+    <td><center>0.8192±0.1406</td>
+    <td><center>0.8044±0.04674</td>
+    <td><center>0.8581±0.05861</td>
+</tr>
+<tr>
+    <th><center>Fold2</td>
+    <td><center>0.8289±0.06594</td>
+    <td><center>0.8602±0.04390</td>
+    <td><center>0.9362±0.02470</td>
+    <td><center>0.7909±0.04488</td>
+    <td><center>0.9452±0.01671</td>
+    <td><center>0.8016±0.03551</td>
+    <td><center>0.8106±0.07865</td>
+    <td><center>0.8286±0.1029</td>
+</tr>
+<tr>
+    <th><center>Fold3</td>
+    <td><center>0.8155±0.08941</td>
+    <td><center>0.7971±0.1656</td>
+    <td><center>0.7995±0.2199</td>
+    <td><center>0.6781±0.2224</td>
+    <td><center>0.8168±0.2201</td>
+    <td><center>0.6834±0.2137</td>
+    <td><center>0.8013±0.09603</td>
+    <td><center>0.7883±0.1687</td>
+</tr>
+<tr>
+    <th><center>Fold4</td>
+    <td><center>0.6575±0.4195</td>
+    <td><center>0.6886±0.4232</td>
+    <td><center>0.9604±0.02932</td>
+    <td><center>0.8583±0.05223</td>
+    <td><center>0.9694±0.01188</td>
+    <td><center>0.8556±0.009157</td>
+    <td><center>0.6533±0.4286</td>
+    <td><center>0.6852±0.4376</td>
+</tr> 
+<tr>
+    <th><center>Avg</td>
+    <td><center>0.7769±0.1868</td>
+    <td><center>0.8083±0.1985</td>
+    <td><center>0.9111±0.1162</td>
+    <td><center>0.7944±0.1418</td>
+    <td><center>0.9216±0.1092</td>
+    <td><center>0.7923±0.1280</td>
+    <td><center>0.7723±0.1902</td>
+    <td><center>0.8015±0.2062</td>
+</tr>        
+</table>
