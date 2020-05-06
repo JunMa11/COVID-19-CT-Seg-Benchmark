@@ -1,4 +1,4 @@
-# Task 1: Learning with limited annotations
+# Task 1: Learning with limited annotations (20% training, 80% testing)
 
 ## 3D U-Net baselines for individual lung and infection segmentation
 
@@ -155,7 +155,8 @@
 
 
 
-## 3D U-Net baselines for infection segmentation、 joint lung and infection segmentation(80%training,20%testing)
+## 3D U-Net baselines for infection segmentation, and joint lung and infection segmentation (80% training, 20% testing)
+
 <table>
 <tr>
     <th rowspan="3"><center>Subtask<br/>
