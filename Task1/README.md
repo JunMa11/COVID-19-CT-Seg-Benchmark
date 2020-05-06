@@ -155,7 +155,7 @@
 
 
 
-## 8/2
+## 3D U-Net baselines for infection segmentation、 joint lung and infection segmentation(80%training,20%testing)
 <table>
 <tr>
     <th rowspan="3"><center>Subtask<br/>
