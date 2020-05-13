@@ -124,6 +124,97 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 - Nifty format of the NSCLC dataset can be downloaded [here (pw:1qop)](https://pan.baidu.com/s/1K7iGRIX8lOiaaTbhBJi7Vw). It should be noted that all the copyrights belong to the original dataset contributors, and please also [cite the corresponding publications](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#4dc5f53338634b35a3500cbed18472e0) if you use this dataset.
 - 2D/3D U-Net baselines are based on [nnU-Net](https://github.com/MIC-DKFZ/nnUNet). 45 pretrained 3D U-Net baseline models and corresponding segmentation results are available [here](http://doi.org/10.5281/zenodo.3789644). [Baidu Net Disk mirror](https://pan.baidu.com/s/1t-Y-twHSrCiDRZKt_r2m5A) (pw: t5mj)
 
+
+<table>
+<tr>
+    <th rowspan="2" colspan="2"><center>Subtask<br/>
+    <th colspan="2"><center>Left Lung</th>
+    <th colspan="2"><center>Right Lung</th>
+    <th colspan="2"><center>Infection</th>
+</tr>
+<tr>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+</tr>
+<tr>
+    <th colspan="2"><center>Task1-Separate</th>
+    <td><center>85.8±10.5</td>
+    <td><center>71.2±13.8</td>
+    <td><center>87.9±9.3</td>
+    <td><center>74.8±11.9</td>
+    <td><center>67.3±22.3</td>
+    <td><center>70.0±24.4</td>
+</tr>
+<tr>
+    <th colspan="2"><center>Task1-Union</th>
+    <td><center>64.6±26.4</td>
+    <td><center>51.1±23.4</td>
+    <td><center>75.0±16.8</td>
+    <td><center>57.7±17.4</td>
+    <td><center>61.0±26.2</td>
+    <td><center>61.8±27.4</td>
+</tr>
+<tr>
+    <th colspan="2"><center>Task2-MSD</th>
+    <td><center>-</td>
+    <td><center>-</td>
+    <td><center>-</td>
+    <td><center>-</td>
+    <td><center>25.2±27.4</td>
+    <td><center>26.0±28.5</td>
+</tr>
+<tr>
+    <th colspan="2"><center>Task2-StructSeg</th>
+    <td><center>92.2±19.7</td>
+    <td><center>82.0±15.7</td>
+    <td><center>95.5±7.2</td>
+    <td><center>84.2±11.6</td>
+    <td><center>6.0±12.7</td>
+    <td><center>5.5±10.7</td>
+</tr>
+<tr>
+    <th colspan="2"><center>Task2-NSCLC </th>
+    <td><center>57.5±21.5</td>
+    <td><center>46.9±17.0</td>
+    <td><center>72.2±15.3</td>
+    <td><center>51.7±16.8</td>
+    <td><center>0.4±0.9</td>
+    <td><center>3.7±4.8</td>
+</tr>
+<tr>
+    <th colspan="2"><center>Task3-MSD </th>
+    <td><center>-</td>
+    <td><center>-</td>
+    <td><center>-</td>
+    <td><center>-</td>
+    <td><center>62.3±25.7</td>
+    <td><center>61.3±27.6</td>
+</tr>
+<tr>
+    <th colspan="2"><center>Task3-StructSeg </th>
+    <td><center>97.3±2.1</td>
+    <td><center>90.6±6.2</td>
+    <td><center>97.7±2.1</td>
+    <td><center>1.4±6.1</td>
+    <td><center>64.2±24.5</td>
+    <td><center>63.3±25.7</td>
+</tr>
+<tr>
+    <th colspan="2"><center>Task3-NSCLC </th>
+    <td><center>93.5±5.4</td>
+    <td><center>76.9±13.3</td>
+    <td><center>94.0±5.3</td>
+    <td><center>77.2±14.1</td>
+    <td><center>60.2±25.4</td>
+    <td><center>58.5±26.7</td>
+</tr>          
+</table>
+	
+	
 - **How to reproduce the baseline results?**
 
 > Step 1. Install the nnU-Net following the official [guidance](https://github.com/MIC-DKFZ/nnUNet). 
