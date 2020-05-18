@@ -199,7 +199,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="center">97.3±2.1</td>
     <td align="center">90.6±6.2</td>
     <td align="center">97.7±2.1</td>
-    <td align="center">1.4±6.1</td>
+    <td align="center">91.4±6.1</td>
     <td><center>64.2±24.5</td>
     <td><center>63.3±25.7</td>
 </tr>
