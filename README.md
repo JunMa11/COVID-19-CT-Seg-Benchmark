@@ -127,6 +127,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 
 <table>
 <tr>
+    <th align="center" rowspan="10" >3D</p>U-Net<br/>
     <th align="left" rowspan="2" colspan="2"><center>Subtask<br/>
     <th colspan="2"><center>Left Lung</th>
     <th colspan="2"><center>Right Lung</th>
@@ -211,7 +212,94 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>77.2±14.1</td>
     <td><center>60.2±25.4</td>
     <td><center>58.5±26.7</td>
-</tr>          
+</tr> 
+<tr>
+    <th align="center" rowspan="10" >2D</p>U-Net<br/>
+    <th align="left" rowspan="2" colspan="2"><center>Subtask<br/>
+    <th colspan="2"><center>Left Lung</th>
+    <th colspan="2"><center>Right Lung</th>
+    <th colspan="2"><center>Infection</th>
+</tr>
+<tr>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
+</tr>
+<tr>
+    <th colspan="2" align="left">Task1-Separate</th>
+    <td><center>95.1±7.9</td>
+    <td><center>84.6±12.7</td>
+    <td align="center">95.6±7.4</td>
+    <td><center>85.5±12.8</td>
+    <td><center>60.9±24.5</td>
+    <td><center>61.5±27.0</td>
+</tr>
+<tr>
+    <th colspan="2" align="left">Task1-Union</th>
+    <td><center>87.3±15.8</td>
+    <td><center>70.5±18.7</td>
+    <td><center>89.4±12.8</td>
+    <td><center>71.0±17.8</td>
+    <td><center>57.7±26.3</td>
+    <td><center>57.2±29.0</td>
+</tr>
+<tr>
+    <th colspan="2" align="left">Task2-MSD</th>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td><center>7.9±11.5</td>
+    <td><center>12.9±15.3</td>
+</tr>
+<tr>
+    <th colspan="2" align="left">Task2-StructSeg</th>
+    <td><center>46.3±47.6</td>
+    <td><center>28.4±31.7</td>
+    <td align="center">45.3±46.7</td>
+    <td><center>28.0±31.3</td>
+    <td align="center">0.2±0.8</td>
+    <td align="center">0.6±1.6</td>
+</tr>
+<tr>
+    <th colspan="2" align="left">Task2-NSCLC </th>
+    <td><center>47.3±48.6</td>
+    <td><center>37.9±40.1</td>
+    <td><center>47.6±48.9</td>
+    <td><center>38.0±40.2</td>
+    <td align="center">1.2±2.9</td>
+    <td align="center">7.3±9.7</td>
+</tr>
+<tr>
+    <th colspan="2" align="left">Task3-MSD </th>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td align="center">-</td>
+    <td><center>51.2±26.8</td>
+    <td><center>52.7±27.4</td>
+</tr>
+<tr>
+    <th colspan="2" align="left">Task3-StructSeg </th>
+    <td align="center">96.3±7.6</td>
+    <td align="center">88.7±10.8</td>
+    <td align="center">96.7±7.0</td>
+    <td align="center">89.0±11.6</td>
+    <td><center>57.4±26.6</td>
+    <td><center>57.3±28.4</td>
+</tr>
+<tr>
+    <th colspan="2" align="left">Task3-NSCLC </th>
+    <td align="center">92.5±17.3</td>
+    <td><center>82.5±18.6</td>
+    <td align="center">93.3±15.9</td>
+    <td><center>82.9±18.6</td>
+    <td><center>52.5±29.6</td>
+    <td><center>52.6±30.3</td>
+</tr> 
 </table>
 	
 	
