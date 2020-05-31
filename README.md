@@ -122,7 +122,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 - Evaluation metrics are Dice similarity coefficient (DSC) and normalized surface Dice (NSD), and the python implementations are [here](http://medicaldecathlon.com/files/Surface_distance_based_measures.ipynb). 
 - In [COVID-19-CT-Seg](https://zenodo.org/record/3757476#.Xpz8OcgzZPY) dataset, the last 10 cases from Radiopaedia have been adjusted to lung window [-1250,250], and then normalized to [0,255], we recommend to adust the first 10 cases from Coronacases with the same method.
 - Nifty format of the NSCLC dataset can be downloaded [here (pw:1qop)](https://pan.baidu.com/s/1K7iGRIX8lOiaaTbhBJi7Vw). It should be noted that all the copyrights belong to the original dataset contributors, and please also [cite the corresponding publications](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#4dc5f53338634b35a3500cbed18472e0) if you use this dataset.
-- 2D/3D U-Net baselines are based on [nnU-Net](https://github.com/MIC-DKFZ/nnUNet). 45 pretrained 3D U-Net baseline models and corresponding segmentation results are available [here](http://doi.org/10.5281/zenodo.3789644). [Baidu Net Disk mirror](https://pan.baidu.com/s/1t-Y-twHSrCiDRZKt_r2m5A) (pw: t5mj)
+- 2D/3D U-Net baselines are based on [nnU-Net](https://github.com/MIC-DKFZ/nnUNet). 100 pretrained baseline models and corresponding segmentation results are available: [3D U-Net](http://doi.org/10.5281/zenodo.3789644) and [2D U-Net](http://doi.org/10.5281/zenodo.3870441).
+> [Baidu Net Disk mirror](https://pan.baidu.com/s/1t-Y-twHSrCiDRZKt_r2m5A) (pw: t5mj)
 
 
 <table>
@@ -307,7 +308,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 
 > Step 1. Install the nnU-Net following the official [guidance](https://github.com/MIC-DKFZ/nnUNet). 
 
-> Step 2. Download the [trained models](http://doi.org/10.5281/zenodo.3789644) and put them into your model folder.
+> Step 2. Download the [3D](http://doi.org/10.5281/zenodo.3789644) or [2D](http://doi.org/10.5281/zenodo.3870441) trained models and put them into your model folder.
 
 > Step 3. Run the [inference code](https://github.com/MIC-DKFZ/nnUNet/blob/master/readme.md#run-inference).
 
@@ -318,10 +319,11 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 
 ## TODO
 
-- [x] Provide pretrained 3D U-Net models by 5.6.
+- [x] Provide pretrained [3D U-Net models](http://doi.org/10.5281/zenodo.3789644) by 5.6.
 
-- [ ] Provide pretrained 2D U-Net models by 5.31.
+- [x] Provide pretrained [2D U-Net models](http://doi.org/10.5281/zenodo.3870441) by 5.31.
 
+- [ ] Provide lung annotations of MSD dataset by 6.30.
 
 
 
