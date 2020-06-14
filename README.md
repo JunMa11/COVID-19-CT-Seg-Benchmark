@@ -22,7 +22,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 | [StructSeg 2019](https://structseg2019.grand-challenge.org/) | 50 lung CT scans; Annotations include left lung, right lung, spinal cord, esophagus, heart, trachea and gross target volume of lung cancer. |Hold by the [challenge organizers](https://structseg2019.grand-challenge.org/Download/)    |
 | [NSCLC](https://wiki.cancerimagingarchive.net/display/DOI/Thoracic+Volume+and+Pleural+Effusion+Segmentations+in+Diseased+Lungs+for+Benchmarking+Chest+CT+Processing+Pipelines#7c5a8c0c0cef44e488b824bd7de60428) | 402 lung CT scans; Annotations include left lung, right lung and pleural effusion (78 cases). |CC BY-NC |
 | [MSD Lung Tumor](http://medicaldecathlon.com/)               | 63 lung CT scans; Annotations include lung cancer.           |CC BY-SA        |
-| [COVID-19-CT-Seg](https://zenodo.org/record/3757476#.Xpz8OcgzZPY) | 20 lung CT scans from; Annotations include left lung, right lung and infections. |CC BY-NC-SA   |
+| [COVID-19-CT-Seg](https://zenodo.org/record/3757476#.Xpz8OcgzZPY) | 20 lung CT scans; Annotations include left lung, right lung and infections. |CC BY-NC-SA   |
+|[MosMed](https://www.medrxiv.org/content/10.1101/2020.05.20.20100362v1)|50 labelled COVID-19 CT scans; Annotations include infections.|CC BY-NC-ND|
 
 ![Examples](https://github.com/JunMa11/COVID-19-CT-Seg-Benchmark/blob/master/utils/ImageExamples.png)
 
@@ -361,7 +362,11 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 
 - [Github mirror](https://github.com/JunMa11/COVID-19-CT-Seg-Benchmark); [Gitee mirror](https://gitee.com/junma11/COVID-19-CT-Seg-Benchmark).
 
+## Update
 
+- 2020.06.14: Introducing [MosMed COVID-19 dataset](https://www.medrxiv.org/content/10.1101/2020.05.20.20100362v1) as an independent testing set for each task and reporting corresponding results.
+
+> Due to the license limitation, we can not directly share this dataset, pleanse download it from the [official homepage](https://mosmed.ai/en/).
 
 ## TODO
 
