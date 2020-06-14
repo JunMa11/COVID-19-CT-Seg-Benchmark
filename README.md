@@ -140,9 +140,12 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <th align="left" rowspan="2" colspan="2"><center>Subtask<br/>
     <th colspan="2"><center>Left Lung</th>
     <th colspan="2"><center>Right Lung</th>
-    <th colspan="2"><center>Infection</th>
+    <th colspan="2"><center>Infection(COVID-19-CT-Seg)</th>
+    <th colspan="2"><center>Infection(MosMed)</th>
 </tr>
 <tr>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
     <th><center>DSC</th>
     <th><center>NSD</th>
     <th><center>DSC</th>
@@ -158,6 +161,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>74.8±11.9</td>
     <td><center>67.3±22.3</td>
     <td><center>70.0±24.4</td>
+    <td><center>58.8±20.6</td>
+    <td><center>66.4±20.3</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task1-Union</th>
@@ -167,6 +172,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>57.7±17.4</td>
     <td><center>61.0±26.2</td>
     <td><center>61.8±27.4</td>
+    <td><center>48.2±22.1</td>
+    <td><center>41.4±19.1</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task2-MSD</th>
@@ -176,6 +183,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="center">-</td>
     <td><center>25.2±27.4</td>
     <td><center>26.0±28.5</td>
+    <td><center>16.2±23.2</td>
+    <td><center>17.5±23.4</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task2-StructSeg</th>
@@ -185,6 +194,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>84.2±11.6</td>
     <td align="center">6.0±12.7</td>
     <td align="center">5.5±10.7</td>
+    <td><center>2.6±9.5</td>
+    <td><center>3.3±9.9</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task2-NSCLC </th>
@@ -194,6 +205,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>51.7±16.8</td>
     <td align="center">0.4±0.9</td>
     <td align="center">3.7±4.8</td>
+    <td><center>0.0±0.0</td>
+    <td><center>0.5±1.4</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task3-MSD </th>
@@ -203,6 +216,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="center">88.5±7.1</td>
     <td><center>62.3±25.7</td>
     <td><center>61.3±27.6</td>
+    <td><center>39.2±30.6</td>
+    <td><center>41.3±30.5</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task3-StructSeg </th>
@@ -212,6 +227,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="center">91.4±6.1</td>
     <td><center>64.2±24.5</td>
     <td><center>63.3±25.7</td>
+    <td><center>44.3±25.3</td>
+    <td><center>49.1±25.8</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task3-NSCLC </th>
@@ -221,15 +238,20 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>77.2±14.1</td>
     <td><center>60.2±25.4</td>
     <td><center>58.5±26.7</td>
+    <td><center>30.1±26.7</td>
+    <td><center>33.4±27.1</td>
 </tr> 
 <tr>
     <th align="center" rowspan="10" >2D</p>U-Net<br/>
     <th align="left" rowspan="2" colspan="2"><center>Subtask<br/>
     <th colspan="2"><center>Left Lung</th>
     <th colspan="2"><center>Right Lung</th>
-    <th colspan="2"><center>Infection</th>
+    <th colspan="2"><center>Infection(COVID-19-CT-Seg)</th>
+    <th colspan="2"><center>Infection(MosMed)</th>
 </tr>
 <tr>
+    <th><center>DSC</th>
+    <th><center>NSD</th>
     <th><center>DSC</th>
     <th><center>NSD</th>
     <th><center>DSC</th>
@@ -245,6 +267,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>85.5±12.8</td>
     <td><center>60.9±24.5</td>
     <td><center>61.5±27.0</td>
+    <td><center>-</td>
+    <td><center>-</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task1-Union</th>
@@ -254,6 +278,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>71.0±17.8</td>
     <td><center>57.7±26.3</td>
     <td><center>57.2±29.0</td>
+    <td><center>-</td>
+    <td><center>-</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task2-MSD</th>
@@ -263,6 +289,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="center">-</td>
     <td align="center"><center>7.9±11.5</td>
     <td><center>12.9±15.3</td>
+    <td><center>-</td>
+    <td><center>-</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task2-StructSeg</th>
@@ -272,6 +300,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>28.0±31.3</td>
     <td align="center">0.2±0.8</td>
     <td align="center">0.6±1.6</td>
+    <td><center>-</td>
+    <td><center>-</td>	
 </tr>
 <tr>
     <th colspan="2" align="left">Task2-NSCLC </th>
@@ -281,6 +311,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>38.0±40.2</td>
     <td align="center">1.2±2.9</td>
     <td align="center">7.3±9.7</td>
+    <td><center>-</td>
+    <td><center>-</td>	
 </tr>
 <tr>
     <th colspan="2" align="left">Task3-MSD </th>
@@ -290,6 +322,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="center">89.8±9.1</td>
     <td><center>51.2±26.8</td>
     <td><center>52.7±27.4</td>
+    <td><center>-</td>
+    <td><center>-</td>	    
 </tr>
 <tr>
     <th colspan="2" align="left">Task3-StructSeg </th>
@@ -299,6 +333,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="center">89.0±11.6</td>
     <td><center>57.4±26.6</td>
     <td><center>57.3±28.4</td>
+    <td><center>-</td>
+    <td><center>-</td>	    
 </tr>
 <tr>
     <th colspan="2" align="left">Task3-NSCLC </th>
@@ -308,6 +344,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>82.9±18.6</td>
     <td><center>52.5±29.6</td>
     <td><center>52.6±30.3</td>
+    <td><center>-</td>
+    <td><center>-</td>	    
 </tr> 
 </table>
 	
