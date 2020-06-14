@@ -82,7 +82,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 	    <td>MSD Lung Tumor (51)<br/>StructSeg Gross Target (40)<br/>NSCLC Plcural Effusion (62)</td>
         <td>MSD Lung Tumor (12)<br/>StructSeg Gross Target (10)<br/>NSCLC Plcural Effusion (16)</td>
         <td>COVID-19-CT-Seg<br/>Infection(20)</td>
-	<td>MosMed(50)</td>
+	<td align="center">MosMed(50)</td>
 	</tr>
 </table>
 
