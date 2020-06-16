@@ -268,8 +268,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>85.5±12.8</td>
     <td><center>60.9±24.5</td>
     <td><center>61.5±27.0</td>
-    <td><center>-</td>
-    <td><center>-</td>
+    <td><center>53.7±21.4</td>
+    <td><center>61.5±21.2</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task1-Union</th>
@@ -279,8 +279,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>71.0±17.8</td>
     <td><center>57.7±26.3</td>
     <td><center>57.2±29.0</td>
-    <td><center>-</td>
-    <td><center>-</td>
+    <td><center>52.2±21.6</td>
+    <td><center>46.2±18.3</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task2-MSD</th>
@@ -290,8 +290,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="center">-</td>
     <td align="center"><center>7.9±11.5</td>
     <td><center>12.9±15.3</td>
-    <td><center>-</td>
-    <td><center>-</td>
+    <td><center>7.6±15.8</td>
+    <td><center>9.9±17.1</td>
 </tr>
 <tr>
     <th colspan="2" align="left">Task2-StructSeg</th>
@@ -301,8 +301,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>28.0±31.3</td>
     <td align="center">0.2±0.8</td>
     <td align="center">0.6±1.6</td>
-    <td><center>-</td>
-    <td><center>-</td>	
+    <td><center>1.9±10.1</td>
+    <td><center>2.2±10.0</td>	
 </tr>
 <tr>
     <th colspan="2" align="left">Task2-NSCLC </th>
@@ -312,8 +312,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>38.0±40.2</td>
     <td align="center">1.2±2.9</td>
     <td align="center">7.3±9.7</td>
-    <td><center>-</td>
-    <td><center>-</td>	
+    <td><center>0.0±0.0</td>
+    <td><center>1.0±1.9</td>	
 </tr>
 <tr>
     <th colspan="2" align="left">Task3-MSD </th>
@@ -323,8 +323,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="center">89.8±9.1</td>
     <td><center>51.2±26.8</td>
     <td><center>52.7±27.4</td>
-    <td><center>-</td>
-    <td><center>-</td>	    
+    <td><center>24.1±23.5</td>
+    <td><center>29.0±24.5</td>	    
 </tr>
 <tr>
     <th colspan="2" align="left">Task3-StructSeg </th>
@@ -334,8 +334,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td align="center">89.0±11.6</td>
     <td><center>57.4±26.6</td>
     <td><center>57.3±28.4</td>
-    <td><center>-</td>
-    <td><center>-</td>	    
+    <td><center>48.2±23.1</td>
+    <td><center>55.0±23.6</td>	    
 </tr>
 <tr>
     <th colspan="2" align="left">Task3-NSCLC </th>
@@ -345,8 +345,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
     <td><center>82.9±18.6</td>
     <td><center>52.5±29.6</td>
     <td><center>52.6±30.3</td>
-    <td><center>-</td>
-    <td><center>-</td>	    
+    <td><center>31.7±24.6</td>
+    <td><center>38.9±25.9</td>	    
 </tr> 
 </table>
 	
