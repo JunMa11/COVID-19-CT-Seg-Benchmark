@@ -391,7 +391,7 @@ We also thank the organizers of [TMI Special Issue on Annotation-Efficient Deep 
 ```
 @article{COVID-19-SegBenchmark,
   title={Towards Efficient COVID-19 CT Annotation: A Benchmark for Lung and Infection Segmentation},
-  author={Ma Jun and Wang Yixin and An Xingle and Ge Cheng and Yu Ziqi and Chen Jianan and Zhu Qiongjie and Dong Guoqiang and He Jian and He Zhiqiang and Ni Ziwei and Yang Xiaoping},
+  author={Ma, Jun and Wang, Yixin and An, Xingle and Ge, Cheng and Yu, Ziqi and Chen, Jianan and Zhu, Qiongjie and Dong, Guoqiang and He, Jian and He, Zhiqiang and Ni, Ziwei and Yang, Xiaoping},
   journal={arXiv preprint arXiv:2004.12537},
   year={2020}
 }
@@ -401,26 +401,26 @@ We also thank the organizers of [TMI Special Issue on Annotation-Efficient Deep 
 
 ```
 @dataset{COVID-19-CT-Seg-Dataset,
-  author       = {Ma Jun and
-                  Ge Cheng and
-                  Wang Yixin and
-                  An Xingle and
-                  Gao Jiantao and
-                  Yu Ziqi and
-                  Zhang Minqing and
-                  Liu Xin and
-                  Deng Xueyuan and
-                  Cao Shucheng and
-                  Wei Hao and
-                  Mei Sen and
-                  Yang Xiaoyu and
-                  Nie Ziwei and
-                  Li Chen and
-                  Tian Lu and
-                  Zhu Yuntao and
-                  Zhu Qiongjie and
-                  Dong Guoqiang and
-                  He Jian},
+  author       = {Ma, Jun and
+                  Ge, Cheng and
+                  Wang, Yixin and
+                  An, Xingle and
+                  Gao, Jiantao and
+                  Yu, Ziqi and
+                  Zhang, Minqing and
+                  Liu, Xin and
+                  Deng, Xueyuan and
+                  Cao, Shucheng and
+                  Wei, Hao and
+                  Mei, Sen and
+                  Yang, Xiaoyu and
+                  Nie, Ziwei and
+                  Li, Chen and
+                  Tian, Lu and
+                  Zhu, Yuntao and
+                  Zhu, Qiongjie and
+                  Dong, Guoqiang and
+                  He, Jian},
   title        = {{COVID-19 CT Lung and Infection Segmentation 
                    Dataset}},
   month        = Apr,
