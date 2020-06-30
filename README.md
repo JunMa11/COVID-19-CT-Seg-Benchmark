@@ -368,13 +368,15 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 
 > Due to the license limitation, we can not directly share this dataset, pleanse download it from the [official homepage](https://mosmed.ai/en/).
 
+- 2020.06.30: Lung annotations of MSD dataset. [Baidu NetDisk](https://pan.baidu.com/s/1A1pTzgBcqrDFW_gdefspxA) (pw: q2qv)
+
 ## TODO
 
 - [x] Provide pretrained [3D U-Net models](http://doi.org/10.5281/zenodo.3789644) by 5.6.
 
 - [x] Provide pretrained [2D U-Net models](http://doi.org/10.5281/zenodo.3870441) by 5.31.
 
-- [ ] Provide lung annotations of MSD dataset by 6.30.
+- [x] Provide lung annotations of MSD dataset by 6.30.
 
 
 
