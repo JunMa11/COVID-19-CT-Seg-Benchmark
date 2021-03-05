@@ -14,6 +14,8 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 - existing labeled lung CT dataset from other non-COVID-19 lung diseases;
 - heterogeneous datasets include both COVID-19 and non-COVID-19 CT scans.
 
+**Ultimate goal: training a model on limited data that can generalize on infinite data!**
+
 ```
 @article{MP-COVID-19-SegBenchmark,
   title={Towards Data-Efficient Learning: A Benchmark for COVID-19 CT Lung and Infection Segmentation},
@@ -371,7 +373,7 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 - [Github mirror](https://github.com/JunMa11/COVID-19-CT-Seg-Benchmark); [Gitee mirror](https://gitee.com/junma11/COVID-19-CT-Seg-Benchmark).
 
 ## Update
-
+- 2020.12: A large COVID-19 CT dataset with 632 patients is available at [The Cancer Imaging Archive](https://wiki.cancerimagingarchive.net/display/Public/CT+Images+in+COVID-19)
 - 2020.06.14: Introducing [MosMed COVID-19 dataset](https://www.medrxiv.org/content/10.1101/2020.05.20.20100362v1) as an independent testing set for each task and reporting corresponding results.
 
 > Due to the license limitation, we can not directly share this dataset, pleanse download it from the [official homepage](https://mosmed.ai/en/).
