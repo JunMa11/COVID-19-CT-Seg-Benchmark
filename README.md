@@ -19,9 +19,13 @@ Tremendous [studies](https://github.com/HzFu/COVID19_imaging_AI_paper_list#techn
 ```
 @article{MP-COVID-19-SegBenchmark,
   title={Towards Data-Efficient Learning: A Benchmark for COVID-19 CT Lung and Infection Segmentation},
-  author={Ma, Jun and Wang, Yixin and An, Xingle and Ge, Cheng and Yu, Ziqi and Chen, Jianan and Zhu, Qiongjie and Dong, Guoqiang and He, Jian and He, Zhiqiang and Zhu, Yuntao and Nie, Ziwei and Yang, Xiaoping},
-  journal={Medical Physics},
-  year={2020}
+  author = {Ma, Jun and Wang, Yixin and An, Xingle and Ge, Cheng and Yu, Ziqi and Chen, Jianan and Zhu, Qiongjie and Dong, Guoqiang and He, Jian and He, Zhiqiang and Cao, Tianjia and Zhu, Yuntao and Nie, Ziwei and Yang, Xiaoping},
+  journal = {Medical Physics},
+  volume = {48},
+  number = {3},
+  pages = {1197-1210},
+  doi = {https://doi.org/10.1002/mp.14676},
+  year = {2021}
 }
 ```
 
